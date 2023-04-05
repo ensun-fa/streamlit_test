@@ -3,6 +3,7 @@ import streamlit as st
 import numpy as np
 import pickle
 
+# Create lists with range of options for the drop down boxes
 year_choices = [x for x in range(60, 86)]
 cyl_choices = [x for x in range(2, 9)]
 
